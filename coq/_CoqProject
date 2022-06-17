@@ -1,0 +1,25 @@
+-Q . PostTheorem
+COQDOCFLAGS = "--charset utf-8 -s --with-header ../website/resources/header.html --with-footer ../website/resources/footer.html --index indexpage"
+
+external/Shared/embed_nat.v
+external/mu_nat.v
+external/partial.v
+
+external/FOL/Syntax/Core.v
+external/FOL/Syntax/Facts.v
+external/FOL/Semantics/Tarski/FullCore.v
+external/FOL/Semantics/Tarski/FullFacts.v
+external/FOL/Arithmetics/Signature.v
+
+external/Shared/Libs/PSL/Vectors/Vectors.v
+external/Shared/Libs/PSL/Vectors/VectorForall.v
+
+external/Synthetic/Definitions.v
+
+PrenexNormalForm.v
+ArithmeticalHierarchySyntactic.v
+ArithmeticalHierarchySemantic.v
+ArithmeticalHierarchyEquiv.v
+OracleComputability.v
+TuringJump.v
+PostsTheorem.v
